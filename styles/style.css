@@ -71,7 +71,7 @@ i {
     justify-content: space-evenly;
 }
 
-.peron-image {}
+/* .peron-image {} */
 
 .peron-image img {
     margin-top: 50px;
@@ -85,7 +85,7 @@ i {
     justify-content: center;
 }
 
-.failure-description-contents {}
+/* .failure-description-contents {} */
 
 .section-title {
     font-weight: 700;
@@ -195,7 +195,7 @@ footer {
     margin-right: 10px;
 }
 
-.subscription {}
+/* .subscription {} */
 
 .subscription input {
     display: block;
@@ -234,7 +234,7 @@ footer {
     margin-top: 50px;
 }
 
-.memory {}
+/* .memory {} */
 
 .memory img {
     height: 300px;
