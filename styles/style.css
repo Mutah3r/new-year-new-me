@@ -136,7 +136,7 @@ i {
     width: 70%;
     margin: 30px auto;
     padding: 50px 40px;
-    background-image: url('../images/watch.png'), linear-gradient(90deg, rgba(241,91,33,0.9) 30%, rgba(255, 255, 255, 0.3));
+    background-image: url('../images/watch.png'), linear-gradient(90deg, rgba(241, 91, 33, 0.9) 30%, rgba(255, 255, 255, 0.3));
     background-blend-mode: overlay;
     background-repeat: no-repeat;
     background-size: cover;
@@ -145,17 +145,75 @@ i {
 
 .motivaiton-text {
     font-weight: 700;
-font-size: 35px;
+    font-size: 35px;
     color: #FFFFFF;
 }
 
 .btn-secondary {
     background-color: #FFFFFF;
     font-weight: 600;
-font-size: 20px;
-color: #F15B22;
+    font-size: 20px;
+    color: #F15B22;
     margin-top: 30px;
-    padding: 20px 30px;
+    padding: 15px 30px;
     border: none;
     border-radius: 5px;
+}
+
+/* Footer Styles */
+footer {
+    background: #151414;
+    display: flex;
+    justify-content: space-around;
+    padding: 80px 60px;
+    margin-top: 100px;
+}
+
+.footer-title {
+    color: #F8F8F8;
+}
+
+.footer-description {
+    max-width: 300px;
+    font-size: 16px;
+    color: #F8F8F8;
+    margin-top: 24px;
+}
+
+.footer-description a {
+    color: #F8F8F8;
+    text-decoration: none;
+}
+
+.social-icons {
+    margin-top: 30px;
+}
+
+.social-icons img {
+    width: 45px;
+    height: 45px;
+    margin-right: 10px;
+}
+
+.subscription {}
+
+.subscription input {
+    display: block;
+}
+
+.subscribe-sub-title {
+    font-weight: 700;
+    font-size: 20px;
+    color: #F8F8F8;
+    margin-top: 16px;
+}
+
+.subscription input[type='email'] {
+    background-color: #151414;
+    color: #F8F8F8;
+    border: 1px solid #F8F8F8;
+    border-radius: 5px;
+    margin-top: 30px;
+    padding: 18px;
+    width: 100%;
 }
