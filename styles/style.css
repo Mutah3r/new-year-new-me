@@ -4,6 +4,13 @@
     box-sizing: border-box;
     font-family: 'Work Sans', sans-serif;
 }
+ul {
+    list-style: none;
+    margin-top: 16px;
+}
+i {
+    color: #16D887;
+}
 
 /* Banner Styles */
 .banner {
@@ -36,7 +43,7 @@
     color: #151414;
 }
 
-.banner-description {
+.description {
     max-width: 300px;
     font-size: 16px;
     color: #444343;
@@ -52,4 +59,39 @@
     margin-top: 50px;
     font-weight: 600;
     font-size: 20px;
+}
+
+/* Failure Section Styles */
+.failure-section {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.peron-image {
+
+}
+
+.peron-image img {
+    margin-top: 50px;
+    width: 400px;
+height: 525px;
+}
+
+.failure-description {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.failure-description-contents {
+
+}
+
+.section-title {
+    font-weight: 700;
+font-size: 40px;
+color: #151414;
+
 }
