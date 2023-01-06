@@ -130,3 +130,32 @@ i {
     color: #151414;
     margin-top: 16px;
 }
+
+/* Contact Section */
+.contact-section {
+    width: 70%;
+    margin: 30px auto;
+    padding: 50px 40px;
+    background-image: url('../images/watch.png'), linear-gradient(90deg, rgba(241,91,33,0.9) 30%, rgba(255, 255, 255, 0.3));
+    background-blend-mode: overlay;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 8px;
+}
+
+.motivaiton-text {
+    font-weight: 700;
+font-size: 35px;
+    color: #FFFFFF;
+}
+
+.btn-secondary {
+    background-color: #FFFFFF;
+    font-weight: 600;
+font-size: 20px;
+color: #F15B22;
+    margin-top: 30px;
+    padding: 20px 30px;
+    border: none;
+    border-radius: 5px;
+}
