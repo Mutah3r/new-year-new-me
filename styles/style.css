@@ -4,10 +4,12 @@
     box-sizing: border-box;
     font-family: 'Work Sans', sans-serif;
 }
+
 ul {
     list-style: none;
     margin-top: 16px;
 }
+
 i {
     color: #16D887;
 }
@@ -69,14 +71,12 @@ i {
     justify-content: space-evenly;
 }
 
-.peron-image {
-
-}
+.peron-image {}
 
 .peron-image img {
     margin-top: 50px;
     width: 400px;
-height: 525px;
+    height: 525px;
 }
 
 .failure-description {
@@ -85,13 +85,48 @@ height: 525px;
     justify-content: center;
 }
 
-.failure-description-contents {
-
-}
+.failure-description-contents {}
 
 .section-title {
     font-weight: 700;
-font-size: 40px;
-color: #151414;
+    font-size: 40px;
+    color: #151414;
 
+}
+
+/* Plan Section Styles */
+.plan-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 130px;
+}
+
+.plan-container {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    margin: 55px 30px;
+}
+
+.plan-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 220px;
+    height: 200px;
+}
+
+.plan-card img {
+    height: 90px;
+    width: 90px;
+}
+
+.sub-title {
+    font-weight: 700;
+    font-size: 20px;
+    color: #151414;
+    margin-top: 16px;
 }
